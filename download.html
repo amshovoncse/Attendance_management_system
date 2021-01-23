@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Download Apps</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="keywords" content="HTML, CSS, JavaScript" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <link rel="shortcut icon" href="images/fav-icon.png" />
+        <link href='http://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,700i,900|Montserrat:400,700|PT+Serif' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css"  href='css/clear.css' />
+        <link rel="stylesheet" type="text/css"  href='css/common.css' />
+        <link rel="stylesheet" type="text/css"  href='css/font-awesome.min.css' />
+        <link rel="stylesheet" type="text/css"  href='css/prettyPhoto.css' />
+        <link rel="stylesheet" type="text/css"  href='css/sm-clean.css' />
+        <link rel="stylesheet" type="text/css"  href='style.css' />
+
+        <!--[if lt IE 9]>
+        <script src="js/html5.js"></script>
+        <![endif]-->
+
+    <style>
+
+        /* Download App section */
+        #download-header {
+            background-color: #ffffff;
+            padding-bottom: 3%;
+            text-align: center;
+        }
+
+        .download-page-logo {
+            width: 15%;
+            margin: 20px 20px 15px; /* top 20px | left right 20px | bottom 20px */
+        }
+
+        #download-header .heading-h3 {
+            padding-top: 0;
+            margin-top: 0;
+        }
+
+        .collapsible {
+            background-color: #23214c;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 60%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+        }
+
+        .active, .collapsible:hover {
+            background-color: #181558;
+        }
+
+        .collapsible:after {
+            content: '\002B';
+            color: white;
+            font-weight: bold;
+            float: right;
+            margin-left: 5px;
+        }
+
+        .active:after {
+            content: "\2212";
+        }
+
+        .content {
+            padding: 0 18px;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.2s ease-out;
+            background-color: #dbdada;
+            width: 57.5%;
+            margin: 0 auto;
+        }
+
+        .button {
+            border: none;
+            color: #ffac1c;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .button1 {
+            background-color: #ffac1c;
+            color: black;
+            border: 2px solid #ffffff;
+        }
+
+        .button1:hover {
+            background-color: #4CAF50;
+            color: white;
+        }
+        #download-header .content img {
+            padding-top: 7px;
+            height: 100px;
+            width: 100px;
+        }
+        @media (max-width: 1000px) {
+            #download-header .content {
+                width: 57.5%;
+                background-color: #f6f6f6;
+            }
+        }
+
+
+        /* End Download App section */
+
+    </style>
+
+
+
+
+
+
+
+
+</head>
+<body>
+<!-- Preloader Gif -->
+<table class="doc-loader">
+    <tr>
+        <td>
+            <img src="images/gif-logo-maker.gif" alt="Loading..." />
+        </td>
+    </tr>
+</table>
+
+<!-- Menu -->
+<div class="menu-wrapper center-relative">
+    <nav id="header-main-menu">
+        <div class="mob-menu">MENU</div>
+        <ul class="main-menu sm sm-clean">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Desktop App</a></li>
+            <li><a href="#portfolio">Admin App</a></li>
+            <li><a href="#about">Teacher App</a></li>
+            <li><a href="#news">Student App</a></li>
+            <li><a href="#video">Overview</a></li>
+            <li><a href="#skills">Tools</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</div>
+
+<!-- Home -->
+
+<section id="download-header">
+    <div class="container-fluid">
+        <img class="download-page-logo" src="demo-images/logo.png" alt="logo">
+    </div>
+    <div class="heading-h3">
+        <h3>Download All Apps</h3>
+    </div>
+    <button class="collapsible">Admin app download Link</button>
+    <div class="content">
+        <img src="demo-images/admin-logo.png" alt="admin"/>
+        <br>
+        <button class="button button1">Admin App</button>
+    </div>
+
+    <button class="collapsible">Teacher app download Link</button>
+    <div class="content">
+        <img height="100px" width="100px" src="demo-images/teacher-logo.png" alt="teacher"/>
+        <br>
+        <button class="button button1">Teacher App</button>
+    </div>
+
+    <button class="collapsible">Student app download Link</button>
+    <div class="content">
+        <img height="100px" width="100px" src="demo-images/student-logo.png" alt="student"/>
+        <br>
+        <button class="button button1">Student App</button>
+    </div>
+
+
+
+
+
+</section>
+
+<!-- Footer -->
+
+<footer>
+    <div class="footer content-1170 center-relative">
+        <ul>
+            <li class="copyright-footer">
+                © 2021 All rights reserved. | Design by Project Team</a>
+            </li>
+            <!--                    <li class="social-footer">-->
+            <!--                        <a href="#"><span class="fa fa-twitter"></span></a>-->
+            <!--                        <a href="#"><span class="fa fa-linkedin"></span></a>-->
+            <!--                        <a href="#"><span class="fa fa-facebook"></span></a>-->
+            <!--                    </li>-->
+        </ul>
+    </div>
+</footer>
+
+
+<!--Load JavaScript-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type='text/javascript' src='js/jquery.sticky-kit.min.js'></script>
+<script type='text/javascript' src='js/jquery.smartmenus.min.js'></script>
+<script type='text/javascript' src='js/jquery.sticky.js'></script>
+<script type='text/javascript' src='js/jquery.dryMenu.js'></script>
+<script type='text/javascript' src='js/isotope.pkgd.js'></script>
+<script type='text/javascript' src='js/jquery.carouFredSel-6.2.0-packed.js'></script>
+<script type='text/javascript' src='js/jquery.mousewheel.min.js'></script>
+<script type='text/javascript' src='js/jquery.touchSwipe.min.js'></script>
+<script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='js/imagesloaded.pkgd.js'></script>
+<script type='text/javascript' src='js/jquery.prettyPhoto.js'></script>
+<script type='text/javascript' src='js/main.js'></script>
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.maxHeight){
+                content.style.maxHeight = null;
+            } else {
+                content.style.maxHeight = content.scrollHeight + "px";
+            }
+        });
+    }
+</script>
+</body>
+</html>
